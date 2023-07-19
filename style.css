@@ -28,7 +28,7 @@
     color: #FFF;
 }
 
-.gamer-des, .online-game-des {
+.gamer-des, .online-game-des, .third-anniversary-des {
     line-height: 25px;
     margin-bottom: 20px;
     color: #534C64;
@@ -270,6 +270,56 @@ nav ul li a:hover{
     text-align: start;
 }
 
+/*Third anniversary section*/
+
+.third-anniversary-sec{
+    display: flex;
+    width: 77%;
+    margin: auto;
+    justify-content:space-between;
+    align-items: center;
+    height: 660px;
+}
+
+.third-anniversary-content{
+    margin-left: 13%;
+    margin-top: 40px;
+    text-align: end;
+}
+
+.third-anniversary-img{
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+.third-anniversary-title{
+    margin-bottom: 30px;
+}
+
+.play-instantly{
+    color: #ff44a4;
+}
+
+.third-anniversary-des{
+    line-height: 25px;
+}
+
+.anniversary-main-img{
+    width: 100%;
+}
+
+.cat-img{
+    width: 100%;
+}
+
+.cartoon-sticker{
+    position: relative;
+    width: 51%;
+    left: -140px;
+    top: -280px;
+}
+
+
 
 /*-----------------Responsive for phone--------------------*/
 
@@ -335,6 +385,28 @@ nav ul li a:hover{
         flex-direction: column;
     }
 
+     /* thired anniversary*/
+
+     .third-anniversary-sec{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .anniversary-main-img{
+        margin-top: 50px;
+        margin-left: 10%;
+    }
+
+    .cartoon-sticker{
+        top: -140px;
+        left: -35px;
+    }
+
+    .third-anniversary-content{
+        text-align: center;
+        margin-left: 0%;
+    }
+
    
 }
 
@@ -390,5 +462,26 @@ nav ul li a:hover{
     /*Online game section*/
     .cards-container{
         flex-direction: column;
+    }
+
+    /* thired anniversary*/
+
+    .third-anniversary-sec{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .anniversary-main-img{
+        margin-top: 50px;
+        margin-left: 10%;
+    }
+
+    .cartoon-sticker{
+        left: -60px;
+    }
+
+    .third-anniversary-content{
+        text-align: center;
+        margin-left: 0%;
     }
 }
