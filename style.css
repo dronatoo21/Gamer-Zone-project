@@ -8,6 +8,10 @@
     font-family: sans-serif;
 }
 
+.hide{
+    display: none;
+}
+
 .primary-title{
     font-size: 2.8rem;
     font-weight: 700;
@@ -24,6 +28,13 @@
     color: #FFF;
 }
 
+.gamer-des, .online-game-des {
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #534C64;
+    font-size: 1.1em;
+    font-weight: 400;
+}
 
 /*-------Header section styles--------*/
 /*nav styles*/
@@ -96,7 +107,6 @@ nav ul li a:hover{
 .banner{
     display: flex;
     justify-content: space-between;
-    
     width: auto;
     align-items: center;
     background-image: url("./images/Group\ 14.png");
@@ -172,14 +182,6 @@ nav ul li a:hover{
     color: #e056fd;
 }
 
-.gamer-des{
-    line-height: 25px;
-    margin-bottom: 20px;
-    color: #534C64;
-    font-size: 1.1em;
-    font-weight: 400;
-}
-
 .gamer-img{
     width: 40%;
 }
@@ -198,6 +200,75 @@ nav ul li a:hover{
     font-weight: 700;
     line-height: 45px;
 }
+
+/*Online game section*/
+.online-game-sec{
+    text-align: center;
+    width: 77%;
+    margin: 130px auto;
+}
+
+.online-game-sec-title{
+    margin-bottom: 20px;
+}
+
+.cards{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.cards img{
+    display: block;
+}
+
+.online-game-overlay{
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: #eee;
+}
+
+.overlay-text{
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+}
+
+.watch-now{
+    font-size: 20px;
+}
+
+.overlay-fade{
+    width: 100%;
+    height: 88%;
+    top: 0%;
+    left: 0%;
+    background-color: #8080809e;
+    border-radius: 10px;
+}
+
+.cards:hover .online-game-overlay{
+    opacity: 1;
+}
+
+
+.cards-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.online-games-primary-des{
+    margin-top: 20px;
+    text-align: start;
+}
+
 
 /*-----------------Responsive for phone--------------------*/
 
@@ -233,6 +304,10 @@ nav ul li a:hover{
         width: 90%;
     }
 
+    .banner-title-two{
+        font-size: 4rem;
+    }
+
     .banner-pic{
         width: 80%;
         margin-right: 0%;
@@ -255,8 +330,12 @@ nav ul li a:hover{
         width: 90%;
     }
 
+    /*Online game section*/
+    .cards-container{
+        flex-direction: column;
+    }
 
-
+   
 }
 
 
@@ -295,6 +374,7 @@ nav ul li a:hover{
 
     .gamer-section{
         flex-direction: column;
+        width: 100%;
     }
 
     .gamer-content{
@@ -306,5 +386,8 @@ nav ul li a:hover{
     .gamer-img{
         width: 90%;
     }
-
+    /*Online game section*/
+    .cards-container{
+        flex-direction: column;
+    }
 }
