@@ -36,6 +36,7 @@
     font-weight: 400;
 }
 
+
 /*-------Header section styles--------*/
 /*nav styles*/
 
@@ -130,6 +131,11 @@ nav ul li a:hover{
     font-weight: 600;
 }
 
+.primary-btn:hover{
+    color: black;
+}
+
+
 .banner-title-two{
     font-size: 6em;
     font-weight: 800;
@@ -147,6 +153,10 @@ nav ul li a:hover{
     font-weight: 600;
     color: #FFF;
     margin-left: 20px;
+}
+
+.banner-btn-two:hover{
+    color: black;
 }
 
 .banner-content ul li{
