@@ -260,6 +260,7 @@ nav ul li a:hover{
 .cards-container{
     margin-top: 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -300,7 +301,6 @@ nav ul li a:hover{
         margin: 2%;
         background-image: url("./images/Group\ 14.png");
         background-size: 100%;
-        background-repeat: no-repeat;
         width: 90%;
     }
 
@@ -317,11 +317,11 @@ nav ul li a:hover{
     /*Gamer section*/
     .gamer-section{
         flex-direction: column;
-        margin: auto;
+        margin: -60px auto;
     }
 
     .gamer-content{
-        padding: 0px 0px 0px 0px;
+        padding: 15px;
         margin-top: 30px;
         text-align: center;
     }
@@ -362,6 +362,7 @@ nav ul li a:hover{
     .banner-content{
         padding: 0% 10% 0% 10%;
         margin-top: -59px;
+        margin-left: 0%;
     }
 
    .banner-pic{
@@ -378,7 +379,7 @@ nav ul li a:hover{
     }
 
     .gamer-content{
-        padding: 0px 0px 0px 0px;
+        padding: 10px;
         margin-top: 30px;
         text-align: center;
     }
