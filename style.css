@@ -659,6 +659,7 @@ footer{
 
     .social-links{
         grid-template-columns: repeat(3, 1fr);
+        margin-left: 8% ;
     }
 
     .social-links-two{
