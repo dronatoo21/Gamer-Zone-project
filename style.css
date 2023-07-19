@@ -14,7 +14,7 @@
 }
 
 .primary-btn{
-    background-color: #e84393 ;
+    background-color: #fd79a8 ;
     padding: 21px 40px;
     border-radius: 50px;
     border: 0;
@@ -27,6 +27,10 @@
 
 /*-------Header section styles--------*/
 /*nav styles*/
+
+.g{
+    color: #e84393;
+}
 
 header{
     align-items: center;
@@ -91,19 +95,22 @@ nav ul li a:hover{
 
 .banner{
     display: flex;
-    justify-content: space-around;
-    height: 680px;
-    background-image: url("./images/Group\ 14.png");
-    background-repeat: no-repeat;
+    justify-content: space-between;
+    
+    width: auto;
     align-items: center;
+    background-image: url("./images/Group\ 14.png");
+    background-size: 50%  100%;
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 .banner-content{
-    width: 47%;
     margin-left: 10%;
 }
 
 .banner-pic{
+    width: 37.5%;
     margin-right: 10%;
 }
 
@@ -114,7 +121,7 @@ nav ul li a:hover{
 }
 
 .banner-title-two{
-    font-size: 6rem;
+    font-size: 6em;
     font-weight: 800;
     color: #e056fd;
     margin-bottom: 20px;
@@ -147,7 +154,7 @@ nav ul li a:hover{
 
 /*Responsive for phone*/
 
-@media screen and (max-width:768px){
+@media screen and (max-width:576px){
     /*nav styles*/
     nav{
         flex-direction: column;
@@ -162,12 +169,36 @@ nav ul li a:hover{
         margin-top: 20px;
         text-align: center;
     }
+
+    /*Banner styles*/
+    .banner{
+        height: 890px;
+        flex-direction: column-reverse;
+        justify-content:center ;  
+        background-image: none;
+    }
+
+    .banner-content{
+        margin: 2%;
+        background-image: url("./images/Group\ 14.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 90%;
+    }
+
+    .banner-pic{
+        width: 80%;
+        margin-right: 0%;
+        padding: 30px;
+    }
+
 }
 
 
 /*Responsive for tabs*/
 
-@media screen and (min-width:768px) and (max-width:1025px){
+@media screen and (min-width:576px) and (max-width:1039px){
+    /*nav styles*/
     nav{
         flex-direction: column;
     }
@@ -175,4 +206,24 @@ nav ul li a:hover{
     nav ul li{
         margin-top: 35px;
     }
+
+    /*Banner styles*/
+    .banner{
+        flex-direction: column;
+        height: 1205px;
+        background-image: none;
+        justify-content: center;
+    }
+
+    .banner-content{
+        padding: 0% 10% 0% 10%;
+        margin-top: -59px;
+    }
+
+   .banner-pic{
+        width: 70%;
+        margin-right: 0%;
+        padding: 30px;
+    }
+
 }
