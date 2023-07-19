@@ -5,7 +5,7 @@
 *{  
     margin: 0%;
     padding: 0%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: sans-serif;
 }
 
 .primary-title{
@@ -14,7 +14,7 @@
 }
 
 .primary-btn{
-    background-color: #fd79a8 ;
+    background-color: #ff44a4;
     padding: 21px 40px;
     border-radius: 50px;
     border: 0;
@@ -152,7 +152,54 @@ nav ul li a:hover{
     color: #e84393;
 }
 
-/*Responsive for phone*/
+/*Gamer section*/
+
+.gamer-section {
+    padding: 60px 0px 60px 0px;
+    background-image: url("./images/bg.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.gamer-content{
+    text-align: end;
+}
+
+.gamer-title{
+    margin-bottom: 20px;
+    color: #e056fd;
+}
+
+.gamer-des{
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #534C64;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.gamer-img{
+    width: 40%;
+}
+
+.gamer-end-title-one{
+    margin-top: 40px;
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.gamer-end-title-two{
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+/*-----------------Responsive for phone--------------------*/
 
 @media screen and (max-width:576px){
     /*nav styles*/
@@ -192,6 +239,24 @@ nav ul li a:hover{
         padding: 30px;
     }
 
+    /*Gamer section*/
+    .gamer-section{
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .gamer-content{
+        padding: 0px 0px 0px 0px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .gamer-img{
+        width: 90%;
+    }
+
+
+
 }
 
 
@@ -224,6 +289,22 @@ nav ul li a:hover{
         width: 70%;
         margin-right: 0%;
         padding: 30px;
+    }
+
+    /*Gamer section*/
+
+    .gamer-section{
+        flex-direction: column;
+    }
+
+    .gamer-content{
+        padding: 0px 0px 0px 0px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .gamer-img{
+        width: 90%;
     }
 
 }
