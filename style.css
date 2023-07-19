@@ -353,6 +353,80 @@ nav ul li a:hover{
     text-align: center;
 }
 
+/*--------Footer section styles-------*/
+
+footer{
+    margin-top: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 690px;
+    background-color: #0B0223;
+    padding-bottom: 20px;
+}
+
+.footer-logo{
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    margin-left: 33%;
+}
+
+.footer-title{
+    color: #FFF;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.footer-tags{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+    width: 100%;
+}
+
+.footer-tags a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.social-links{
+    margin-top: 70px;
+    margin-left: 4%;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 100%;
+}
+
+.social-links-two{
+    margin-top: 70px;
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    width: 100%;
+}
+
+.social-links-two a{
+    color: rgba(255, 255, 255, 0.60);
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-end-title{
+    margin-top: 70px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
 
 
 /*-----------------Responsive for phone--------------------*/
@@ -452,6 +526,27 @@ nav ul li a:hover{
     .btn-container{
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /*Footer section*/
+    footer{
+        padding: 20px;
+        height: 700px;
+    }
+
+    .footer-logo{
+        margin-left: 20%;
+    }
+    .footer-tags{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .social-links{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .social-links-two{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
@@ -538,5 +633,25 @@ nav ul li a:hover{
 
     .btn-container{
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    /*Footer section*/
+    footer{
+        height: 700px;
+    }
+
+    .footer-logo{
+        margin-left: 20%;
+    }
+    .footer-tags{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .social-links{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .social-links-two{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
