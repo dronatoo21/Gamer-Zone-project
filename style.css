@@ -5,7 +5,7 @@
 *{  
     margin: 0%;
     padding: 0%;
-    font-family: sans-serif;
+    font-family: sans-serif ;
 }
 
 .hide{
@@ -417,14 +417,16 @@ footer{
     font-weight: 600;
 }
 
+.footer-tags a:hover{
+    color: rgba(255, 255, 255, 0.60);
+}
+
 .social-links{
     margin: 70px auto 0px auto;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     width: 70%;
 }
-
-
 
 .social-links-two{
     margin-top: 70px;
@@ -443,6 +445,10 @@ footer{
     font-weight: 600;
 }
 
+.social-links-two a:hover{
+    color: #FFF;
+}
+
 .footer-end-text{
     margin-top: 50px;
     color: rgba(255, 255, 255, 0.60);
@@ -450,7 +456,6 @@ footer{
     font-size: 18px;
     font-weight: 600;
 }
-
 
 /*-----------------Responsive for phone--------------------*/
 
@@ -579,7 +584,7 @@ footer{
 }
 
 
-/*Responsive for tabs*/
+/*----------Responsive for tabs----------------*/
 
 @media screen and (min-width:576px) and (max-width:1039px){
     /*nav styles*/
