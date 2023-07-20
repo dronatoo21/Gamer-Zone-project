@@ -329,7 +329,7 @@ nav ul li a:hover{
     top: -280px;
 }
 
-/*bUTTON SECTION*/
+/*Button section*/
 .button-sec{
     margin: 250px auto;
     width: 79%;
@@ -405,13 +405,13 @@ footer{
 }
 
 .social-links{
-    margin-top: 70px;
-    margin-left: 4%;
-    gap: 10px;
+    margin: 70px auto 0px auto;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    width: 100%;
+    width: 70%;
 }
+
+
 
 .social-links-two{
     margin-top: 70px;
@@ -430,8 +430,8 @@ footer{
     font-weight: 600;
 }
 
-.footer-end-title{
-    margin-top: 70px;
+.footer-end-text{
+    margin-top: 50px;
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
     font-size: 18px;
@@ -502,6 +502,10 @@ footer{
     .cards-container{
         flex-direction: column;
     }
+    .cards-container{
+        width: 100%;
+        flex-wrap: nowrap;
+    }
 
      /* thired anniversary*/
 
@@ -530,7 +534,7 @@ footer{
 
     .button-sec{
         margin-top: 200px;
-        width: 100%;
+        width: 90%;
     }
 
     .btn-container{
@@ -540,17 +544,18 @@ footer{
     /*Footer section*/
     footer{
         padding: 20px;
-        height: 700px;
+        height: 850px;
     }
 
     .footer-logo{
-        margin-left: 20%;
+        margin-left: 14%;
     }
     .footer-tags{
         grid-template-columns: repeat(3, 1fr);
     }
 
     .social-links{
+        gap: 40px;
         grid-template-columns: repeat(3, 1fr);
     }
 
@@ -609,6 +614,7 @@ footer{
         width: 90%;
     }
     /*Online game section*/
+    
     .cards-container{
         flex-direction: column;
     }
@@ -638,7 +644,7 @@ footer{
     /*button section*/
 
     .button-sec{
-        margin-top: 600px;
+        margin-top: 500px;
     }
 
     .btn-container{
@@ -647,7 +653,8 @@ footer{
 
     /*Footer section*/
     footer{
-        height: 700px;
+        margin-top: -100px;
+        height: 800px;
     }
 
     .footer-logo{
@@ -659,7 +666,7 @@ footer{
 
     .social-links{
         grid-template-columns: repeat(3, 1fr);
-        margin-left: 8% ;
+        gap: 40px;
     }
 
     .social-links-two{
