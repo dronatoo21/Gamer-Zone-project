@@ -229,6 +229,10 @@ nav ul li a:hover{
     margin-bottom: 20px;
 }
 
+.funny-videos{
+    color: #e056fd ;
+}
+
 .cards{
     position: relative;
     display: inline-block;
