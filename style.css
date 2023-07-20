@@ -558,6 +558,11 @@ footer{
     .btn-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+
+    .btn{
+        padding: 5px;
     }
 
     /*Footer section*/
