@@ -143,6 +143,11 @@ nav ul li a:hover{
     margin-bottom: 20px;
 }
 
+.banner-btn-one:hover{
+    color: #FFF;
+    box-shadow: 2px 2px 20px #4EC5F7;
+}
+
 .banner-btn-two{
     background-color: #4EC5F7;
     padding: 21px 40px;
@@ -153,10 +158,11 @@ nav ul li a:hover{
     font-weight: 600;
     color: #FFF;
     margin-left: 20px;
+    transition: 0.1s ease;
 }
 
 .banner-btn-two:hover{
-    color: black;
+    box-shadow: 2px 2px 20px #e056fd;
 }
 
 .banner-content ul li{
@@ -209,6 +215,11 @@ nav ul li a:hover{
     font-size: 32px;
     font-weight: 700;
     line-height: 45px;
+}
+
+.gamer-btn:hover{
+    color: #FFF;
+    box-shadow: 2px 2px 20px gray;
 }
 
 /*Online game section*/
@@ -344,20 +355,22 @@ nav ul li a:hover{
     font-weight: 600;
     border-radius: 40px;
     outline: none;
-    border: 0;
+    border: 2px solid #FFF;
     background-color:#FFF ;
     box-shadow: 2px 2px 17px gainsboro;
 }
 
 .btn:hover{
-    border: 1px solid #ff44a4;
+    border: 2px solid #ff44a4;
     color: #ff44a4;
+
 }
 
 .btn-container{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -538,6 +551,7 @@ footer{
     }
 
     .btn-container{
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -648,6 +662,7 @@ footer{
     }
 
     .btn-container{
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
 
