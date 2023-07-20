@@ -265,18 +265,17 @@ nav ul li a:hover{
 }
 
 .overlay-fade{
-    width: 99%;
+    width: 98.7%;
     height: 86.5%;
     top: 0%;
     left: 0%;
     background-color: #8080809e;
-    border-radius: 10px;
+    border-radius: 15px;
+    border: 3px solid #e84393;
 }
 
 .cards:hover .online-game-overlay{
     opacity: 1;
-    border: 3px solid #e84393;
-    border-radius: 15px;
 }
 
 .cards-container{
